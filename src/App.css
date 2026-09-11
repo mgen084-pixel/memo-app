@@ -52,7 +52,7 @@ body {
   margin-right: 8px;
   flex-shrink: 0;
   background-color: #ff6b6b;
-  color: (white);
+  color: white;
   border: none;
   border-radius: 5px;
 }
@@ -103,7 +103,8 @@ button:hover {
   opacity: 0.8;
 }
 
-ボタンボタン */ button {
+/* ボタン */
+button {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
