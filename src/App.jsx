@@ -41,12 +41,12 @@ function App() {
   }
   const handleSave = () => {
     const updatedNotes = notes.map((note) => {
-      if (note.id == selectedNote.id) {
+      if (note.id === selectedNote.id) {
         return { ...note, text: editedText }
       }
       return note;
       console.log(updatedNotes);
-      setNotes(updatedNotes);J
+      setNotes(updatedNotes); J
     })
   }
 
@@ -57,7 +57,7 @@ function App() {
         <button id="create" onClick={handleNoteAdd}>ノート追加</button>
         <ul>
           {notes.map((note, index) => (
-            <li id={note.id} className={selectedNote.id == note.id ? "selected" : ""}>
+            <li id={note.id} className={selectedNote.id === note.id ? "selected" : ""}>
               <button onClick={() => handleDelete(note.id)} className='delete'>消去</button>
               <span onClick={() => handleSelect(note)}>{note.text}</span>
             </li>
