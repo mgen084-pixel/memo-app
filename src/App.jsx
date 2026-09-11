@@ -46,7 +46,7 @@ function App() {
       }
       return note;
       console.log(updatedNotes);
-      setNotes(updatedNotes); J
+      setNotes(updatedNotes);
     })
   }
 
