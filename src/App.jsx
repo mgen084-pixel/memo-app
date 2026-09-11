@@ -45,8 +45,8 @@ function App() {
         return { ...note, text: editedText }
       }
       return note;
-      console.log(updatedNotes);
-      setNotes(updatedNotes);
+      // console.log(updatedNotes);
+      // setNotes(updatedNotes);
     })
   }
 
